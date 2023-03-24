@@ -1,15 +1,15 @@
 import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
 import './App.css';
 import React from 'react';
-import Navbar from './components/Navbar';
-import Home from './pages/Home';
-import Consulting from './pages/Consulting';
+import Navbar from './components/Navbar/Navbar';
+import Home from './components/pages/Home';
+import Consulting from './components/pages/Consulting';
 
-import Development from './pages/Devolopemnt';
-import Marketing from './pages/Marketing';
-import Products from './pages/Products';
-import Services from './pages/Services';
-import SignUp from './pages/Signup';
+import Development from './components/pages/Devolopemnt';
+import Marketing from './components/pages/Marketing';
+import Products from './components/pages/Products';
+import Services from './components/pages/Services';
+import SignUp from './components/pages/Signup';
 function App() {
   return (  
     <>
